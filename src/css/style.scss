@@ -1,0 +1,28 @@
+.ContainerBox {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0.5rem 0.75rem;
+
+    @media screen and (width < 576px) {
+        height: auto;
+    }
+    
+    .BoxSize {
+        display: block;
+        position: relative;
+
+        max-width: 420px;
+        width: 100%;
+        
+        margin: auto;
+        padding: 3px 12px;
+
+        border: 1px solid rgba($color: #636363, $alpha: 0.8);
+        border-radius: 8px;
+
+        box-shadow: rgba($color: #636363, $alpha: 0.16) 0px 10px 36px 0px, rgba($color: #636363, $alpha: 0.06) 0px 0px 0px 1px;
+    }
+}
